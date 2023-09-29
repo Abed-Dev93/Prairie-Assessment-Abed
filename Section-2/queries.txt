@@ -1,0 +1,7 @@
+SELECT first_name, last_name, level FROM mentor;
+SELECT * FROM mentor WHERE office='333';
+SELECT * FROM mentor WHERE salary>1000;
+SELECT first_name, last_name, level FROM mentor WHERE salary>1000;
+SELECT first_name, last_name from mentor WHERE depar_id = 'English & Life Skills';
+SELECT count FROM student WHERE skills = 'Development';
+SELECT ssn From student WHERE skills = 'Development';
